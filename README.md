@@ -8,3 +8,6 @@ A machine learning model trained with news classifed as fake and real. Users can
 
 Model and Vectorizer of the classifier model
 https://drive.google.com/drive/u/0/folders/1yAwHPErQaf1-po-dQCYqueNGGC-wtrhv
+
+To run:
+Download the model and vectorizer files and add them to the folder with the rest of the code; then run "python ai_model.py" 
