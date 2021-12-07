@@ -1,0 +1,47 @@
+*{
+    color: #000000;
+    font-family: "Roboto, sans-serif";
+    background: #eee;
+}
+
+body{
+    min-height: 100%;
+    overflow: hidden;
+    background: url("../images/real.png");
+    background-position: right;
+    background-size: contain; 
+    background-repeat: no-repeat;
+}
+
+.heading {
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 1px;   
+}
+
+.container{
+    width: 40%;
+    margin-left: 5%;
+}
+
+.fake{
+    margin-top: 60px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.resources{
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.results{
+    width: 90%;
+}
+
+.result{
+    padding: 15px 0;
+    font-size: 20px;
+    word-wrap: break-word;
+}

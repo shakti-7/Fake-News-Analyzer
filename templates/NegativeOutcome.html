@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <title>Your Prediction</title>
+    <link rel="stylesheet" href="../static/css/stylenegative.css">
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Covid Fake News Analyser</h1>
+    </div>
+    <div class="container">
+      <p class="fake">It is very likely that the news is fake!<br>Make sure to get your news from reliable sources.</p>
+      <p class="resources">Here are some resources that could verify our prediction: </h3>
+      <div class="results">
+        {% for result in search_results %}
+          <div class="result">
+            <a href = {{result}}>{{result}}</a>
+          </div>
+        {% endfor %}
+      </div>
+  </body>
+</html>
